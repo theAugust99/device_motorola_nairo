@@ -14,3 +14,6 @@
 /sys/devices/soc/0.et320(/.*)?     u:object_r:sysfs_fingerprint:s0
 
 /(vendor|system/vendor)/bin/init\.oem\.(fingerprint|fingerprint2)\.sh       u:object_r:vendor_init_fingerprint_exec:s0
+
+# Awinic
+/(mnt/vendor/persist|persist)/factory/audio/aw_cali.bin u:object_r:persist_audio_file:s0
